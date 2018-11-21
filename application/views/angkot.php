@@ -65,19 +65,19 @@
           waypoints: [
           {
             location: location0,
-            stopover: true
+            stopover: false
 
           },{
             location: location1,
-            stopover: true
+            stopover: false
 
           },{
             location: location2,
-            stopover: true
+            stopover: false
 
           },{
             location: location3,
-            stopover: true
+            stopover: false
 
           }
           ],
