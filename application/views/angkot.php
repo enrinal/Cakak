@@ -52,37 +52,7 @@
       }
 
       function calculateAndDisplayRoute(directionsService, directionsDisplay) {
-        var origin = "<?= $query->origin; ?>";
-        var destination = "<?=  $query->destination; ?>";
-        var location0 = "<?= $query->waypoint0; ?>";
-        var location1 = "<?= $query->waypoint1; ?>";
-        var location2 = "<?= $query->waypoint2; ?>";
-        var location3 = "<?= $query->waypoint3; ?>";
-        directionsService.route({
-          origin: origin,
-          destination: destination,
-          travelMode: 'DRIVING',
-          waypoints: [
-          {
-            location: location0,
-            stopover: false
-
-          },{
-            location: location1,
-            stopover: false
-
-          },{
-            location: location2,
-            stopover: false
-
-          },{
-            location: location3,
-            stopover: false
-
-          }
-          ],
-          
-        }, function(response, status) {
+    , function(response, status) {
           if (status === 'OK') {
             directionsDisplay.setDirections(response);
             $("#error").empty();
