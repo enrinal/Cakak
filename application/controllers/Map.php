@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+class Map extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -18,8 +18,20 @@ class Welcome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
+	function __construct() {
+		parent::__construct();
+		$this->load->model('model_map');
+	}
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$this->load->view('header');
+		$this->load->view('map');
+	}
+
+	public function angkot($id){
+		//$this->load->model('model_home');
+		$this->load->view('header');
+		$data['query'] = $this->model_map->get_lokasi($id);
+		$this->load->view('angkot',$data);
 	}
 }
