@@ -35,7 +35,7 @@ $config['base_url'] = 'http://localhost/cakak';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'controllers\home.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
