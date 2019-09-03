@@ -37,17 +37,17 @@
 						<div class="container">
 							<div class="header-inner">
 								<nav role="navigation">
-									<h2>Rute Angkot :</h2>
+									<h2>Rute Angkot:</h2>
 								    <h4>
-								        <a href="http://localhost/cakak/Map/angkot/1"><img src="<?php echo base_url().'theme/images/rajabasa.png'?>" width="50" height="23" alt="">  </a> &nbsp; <a href="http://localhost/cakak/Map/angkot/1"> Tanjungkarang - Rajabasa </a><br> <br>
-								        <a href="http://localhost/cakak/Map/angkot/2"><img src="<?php echo base_url().'theme/images/wayhalim.png'?>" width="50" height="23" alt="">  </a> &nbsp; <a href="http://localhost/cakak/Map/angkot/2">Tanjungkarang - Way Halim </a><br> <br>
-								        <a href="http://localhost/cakak/Map/angkot/3"><img src="<?php echo base_url().'theme/images/kemiling.png'?>" width="50" height="23" alt=""> </a> &nbsp; <a href="http://localhost/cakak/Map/angkot/3">Tanjungkarang - Kemiling </a><br> <br>
-								        <a href="http://localhost/cakak/Map/angkot/4"><img src="<?php echo base_url().'theme/images/samratulangi.png'?>" width="50" height="23" alt=""> </a> &nbsp; <a href="http://localhost/cakak/Map/angkot/4">Tanjungkarang - Sam Ratulangi </a><br> <br>
-								        <a href="http://localhost/cakak/Map/angkot/5"><img src="<?php echo base_url().'theme/images/sukarame.png'?>" width="50" height="23" alt="">  </a> &nbsp; <a href="http://localhost/cakak/Map/angkot/5">Tanjungkarang - Sukarame </a><br> <br>
-								        <a href="http://localhost/cakak/Map/angkot/6"><img src="<?php echo base_url().'theme/images/permatabiru.png'?>" width="50" height="23" alt=""> </a> &nbsp; <a href="http://localhost/cakak/Map/angkot/6">Tanjungkarang - Permata</a> <br> <br>
-								        <a href="http://localhost/cakak/Map/angkot/7"><img src="<?php echo base_url().'theme/images/irsutami.png'?>" width="50" height="23" alt=""> </a>&nbsp; <a href="http://localhost/cakak/Map/angkot/7">Tanjungkarang - Ir Sutami </a><br> <br>
-								        <a href="http://localhost/cakak/Map/angkot/8"><img src="<?php echo base_url().'theme/images/garuntang.png'?>" width="50" height="23" alt="">  </a>&nbsp;<a href="http://localhost/cakak/Map/angkot/8"> Tanjungkarang - Garuntang </a><br><br>
-								        <a href="http://localhost/cakak/Map/angkot/9"><img src="<?php echo base_url().'theme/images/Untitled-1.png'?>" width="50" height="23" alt="">  </a> &nbsp;<a href="http://localhost/cakak/Map/angkot/9"> Tanjungkarang - Teluk Betung </a><br> <br>
+								        <a href="http://localhost/cakak/index.php/Map/angkot/2"><img src="<?php echo base_url().'theme/images/rajabasa.png'?>" width="50" height="23" alt="">  </a> &nbsp; <a href="http://localhost/cakak/index.php/Map/angkot/1"> Tanjungkarang - Rajabasa </a><br> <br>
+								        <a href="http://localhost/cakak/index.php/Map/angkot/2"><img src="<?php echo base_url().'theme/images/wayhalim.png'?>" width="50" height="23" alt="">  </a> &nbsp; <a href="http://localhost/cakak/index.php/Map/angkot/2">Tanjungkarang - Way Halim </a><br> <br>
+								        <a href="http://localhost/cakak/index.php/Map/angkot/3"><img src="<?php echo base_url().'theme/images/kemiling.png'?>" width="50" height="23" alt=""> </a> &nbsp; <a href="http://localhost/cakak/index.php/Map/angkot/3">Tanjungkarang - Kemiling </a><br> <br>
+								        <a href="http://localhost/cakak/index.php/Map/angkot/4"><img src="<?php echo base_url().'theme/images/samratulangi.png'?>" width="50" height="23" alt=""> </a> &nbsp; <a href="http://localhost/cakak/index.php/Map/angkot/4">Tanjungkarang - Sam Ratulangi </a><br> <br>
+								        <a href="http://localhost/cakak/index.php/Map/angkot/5"><img src="<?php echo base_url().'theme/images/sukarame.png'?>" width="50" height="23" alt="">  </a> &nbsp; <a href="http://localhost/cakak/index.php/Map/angkot/5">Tanjungkarang - Sukarame </a><br> <br>
+								        <a href="http://localhost/cakak/index.php/Map/angkot/6"><img src="<?php echo base_url().'theme/images/permatabiru.png'?>" width="50" height="23" alt=""> </a> &nbsp; <a href="http://localhost/cakak/index.php/Map/angkot/6">Tanjungkarang - Permata</a> <br> <br>
+								        <a href="http://localhost/cakak/index.php/Map/angkot/7"><img src="<?php echo base_url().'theme/images/irsutami.png'?>" width="50" height="23" alt=""> </a>&nbsp; <a href="http://localhost/cakak/index.php/Map/angkot/7">Tanjungkarang - Ir Sutami </a><br> <br>
+								        <a href="http://localhost/cakak/index.php/Map/angkot/8"><img src="<?php echo base_url().'theme/images/garuntang.png'?>" width="50" height="23" alt="">  </a>&nbsp;<a href="http://localhost/cakak/index.php/Map/angkot/8"> Tanjungkarang - Garuntang </a><br><br>
+								        <a href="http://localhost/cakak/index.php/Map/angkot/9"><img src="<?php echo base_url().'theme/images/Untitled-1.png'?>" width="50" height="23" alt="">  </a> &nbsp;<a href="http://localhost/cakak/index.php/Map/angkot/9"> Tanjungkarang - Teluk Betung </a><br> <br>
 								    </h4>
 								</nav>
 							</div>

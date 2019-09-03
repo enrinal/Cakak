@@ -34,14 +34,14 @@
 	<header id="fh5co-header" role="banner">
 		<div class="container">
 			<div class="header-inner">
-				<h1><a href="<?php echo base_url().''?>">CAKAK<span>.</span></a></h1>
+				<h1><a href="<?php echo base_url().''?>">PABW<span>.</span></a></h1>
 				<nav role="navigation">
 					<ul>
 						<li><a href="<?php echo base_url().''?>">Home</a></li>
-						<li><a href="<?php echo base_url().'about'?>">About Cakak</a></li>
-						<li><a href="<?php echo base_url().'ourteam'?>">Our Team</a></li>
-						<li><a href="<?php echo base_url().'kontak'?>">Contact</a></li>
-						<li class="cta"><a href="<?php echo base_url().'map'?>">Cari Rute</a></li>
+						<li><a href="<?php echo base_url().'index.php/about'?>">About Cakak</a></li>
+						<li><a href="<?php echo base_url().'index.php/ourteam'?>">Our Team</a></li>
+						<li><a href="<?php echo base_url().'index.php/kontak'?>">Contact</a></li>
+						<li class="cta"><a href="<?php echo base_url().'index.php/map'?>">Cari Rute</a></li>
 					</ul>
 				</nav>
 			</div>
